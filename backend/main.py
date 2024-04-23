@@ -7,7 +7,6 @@ from io import BytesIO
 from PIL import Image
 import tensorflow as tf
 #from flask.ext.session import Session
-
 app = Flask(__name__)
 cors = CORS(app)
 
